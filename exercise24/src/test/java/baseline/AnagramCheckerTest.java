@@ -24,20 +24,6 @@ class AnagramCheckerTest {
     }
 
     @Test
-    void sortArrayTest(){
-        AnagramChecker processAnagramTest = new AnagramChecker();
-        char[] testCharArr = {'a','b','c','d'};
-        char[] testCharArrNum = {'1','1','4','6'};
-        char[] testCharInput1 = {'d','c','b','a'};
-        char[] testCharInput2 = {'1','6','4','1'};
-        processAnagramTest.sortArray(testCharInput1);
-        processAnagramTest.sortArray(testCharInput2);
-        // Test to ensure a scrambled array of letters can be successfully sorted in alphabetical order.
-        assertEquals(true, Arrays.equals(testCharArr,testCharInput1));
-        assertEquals(true, Arrays.equals(testCharArrNum, testCharInput2));
-    }
-
-    @Test
     void isAnagramTest(){
         AnagramChecker processAnagramTest = new AnagramChecker();
         assertEquals(true, processAnagramTest.isAnagram("note", "T o N e"));
