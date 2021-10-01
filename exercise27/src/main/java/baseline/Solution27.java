@@ -5,7 +5,10 @@
 
 package baseline;
 
-import java.util.Scanner;
+public class Solution27{
 
-public class Solution27 {
+    public static void main(String[] args){
+        // Instantiate new CreateEmployee object.
+        // Return the appropriate string.
+    }
 }

@@ -6,6 +6,7 @@
 package baseline;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class CreateEmployee{
     // Instantiate new Scanner class object.
