@@ -12,7 +12,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class PaymentCalculatorTest {
 
     @Test
-    void calculateMonthsUntilPaidOff(){
+    void calculateMonthsUntilPaidOffTest(){
         // Test mathematical formula to ensure the right information is returned.
+        PaymentCalculator monthsToPaidTest = new PaymentCalculator(0.00068493, 100.00, 25.00);
+        assertEquals(5.00, monthsToPaidTest.calculateMonthsUntilPaidOff());
     }
 }
