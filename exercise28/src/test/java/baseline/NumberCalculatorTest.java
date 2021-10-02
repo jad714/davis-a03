@@ -9,10 +9,23 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class NumberCalculatorTest {
+class NumberCalculatorTest{
+
+    @Test
+    void takePassInputTest(){
+        // Tests method with passed test values (String array).
+        NumberCalculator numCalcTest = new NumberCalculator();
+        String[] testArrayInput = {"1","0","1","0","1"};
+        int[] testArrayOutput = {1,0,1,0,1};
+        assertArrayEquals(testArrayOutput, numCalcTest.takePassInput(testArrayInput));
+    }
 
     @Test
     void calcInputTest(){
-        // Tests method with passed test values.
+        // Tests method with passed test values (int array).
+        NumberCalculator numCalcTest = new NumberCalculator();
+        int[] testArrayInput = {1,0,1,0,1};
+        int testResult = 3;
+        assertEquals(testResult, numCalcTest.calcInput(testArrayInput));
     }
 }
