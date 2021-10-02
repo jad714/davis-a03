@@ -13,6 +13,8 @@ class MultiplicationTableBuilderTest {
 
     @Test
     void multiplierTest(){
-        // Test that for any given x value, the proper array is returned.
+        // Test that for any given x and y value, the proper array is returned.
+        MultiplicationTableBuilder multiplicationTest = new MultiplicationTableBuilder();
+        assertEquals(55, multiplicationTest.multiplyValues(5,11));
     }
 }

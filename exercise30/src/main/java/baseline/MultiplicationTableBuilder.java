@@ -7,8 +7,8 @@ package baseline;
 
 public class MultiplicationTableBuilder{
 
-    public int[] multiplier(int x){
-        // Given passed value from Solution30 , calculate each multiplier's values, one through 12.
-        // Return the resulting array (which will be a row of results) to Solution30.
+    public int multiplyValues(int x, int y){
+        // Given passed value and multiplier, return result.
+        return x*y;
     }
 }
