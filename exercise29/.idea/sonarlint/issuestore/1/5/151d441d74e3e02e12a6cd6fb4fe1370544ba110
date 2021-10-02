@@ -1,0 +1,13 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(±±›8şûÄ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ€éÇ8şûÄ/
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(±±›8ÕÜÿÄ/
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(Ÿ€éÇ8ÕÜÿÄ/
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(±±›8Ş»€Ä/
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(Ÿ€éÇ8Ş»€Ä/
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(±±›8¹õÄ/
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(Ÿ€éÇ8ºõÄ/
+z
+java:S1192"]Define a constant instead of duplicating this literal "What is the rate of return? " 4 times.(Ÿ€éÇ8à»€Ä/
+~
+java:S1192"aDefine a constant instead of duplicating this literal "Sorry. That's not a valid input." 4 times.(±±›8à»€Ä/
