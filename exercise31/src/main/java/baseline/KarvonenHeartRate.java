@@ -6,13 +6,17 @@
 package baseline;
 
 public class KarvonenHeartRate{
-    // Declare all three instance fields (resting pulse, age, intensity)
-    public KarvonenHeartRate(int restingPulse, int age, int intensity){
+    // Declare both instance fields (resting pulse, age)
+    int a;
+    int rp;
+    public KarvonenHeartRate(int restingPulse, int age){
         // Initialize all instance fields.
+        a = age;
+        rp = restingPulse;
     }
 
-    public int calcTargetHeartRate(){
+    public int calcTargetHeartRate(double intensity){
         // Return the result of the given formula for Target Heart Rate.
+        return (int)((((220.00-a)-rp)*intensity)+rp);
     }
-
 }

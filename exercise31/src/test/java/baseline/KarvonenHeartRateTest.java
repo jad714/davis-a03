@@ -12,7 +12,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class KarvonenHeartRateTest {
 
     @Test
-    void calcTargetHeartRatTest(){
+    void calcTargetHeartRateTest(){
         // Ensures given passed values for instance fields, the correct Target Heart Rate is calculated.
+        KarvonenHeartRate heartRateTest = new KarvonenHeartRate(65,22);
+        assertEquals(138, heartRateTest.calcTargetHeartRate(0.55));
     }
 }
