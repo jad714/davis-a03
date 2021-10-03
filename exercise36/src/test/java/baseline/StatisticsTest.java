@@ -46,6 +46,6 @@ class StatisticsTest{
     @Test
     void calcStDev(){
         // Make sure the returned result is the actual standard deviation of the list (within delta).
-        assertEquals(1.4142135623731, statsTest.calcStDev(testArray, 3.0),  .005);
+        assertEquals(1.41, statsTest.calcStDev(testArray, 3.0),  .005);
     }
 }
