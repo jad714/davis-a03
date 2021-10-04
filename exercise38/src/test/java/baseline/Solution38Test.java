@@ -9,15 +9,23 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Solution38Test {
+class Solution38Test{
+    // Instantiate new Solution38 test object.
+    static final Solution38 executorTest = new Solution38();
 
     @Test
-    void filterEvenNumbers(){
+    void filterEvenNumbersTest(){
         // Test that the related method can return a filtered array.
+        int[] testArray = {1, 2, 3, 4, 5};
+        int[] filteredTestArray = {2, 4};
+        assertArrayEquals(filteredTestArray, executorTest.filterEvenNumbers(testArray));
     }
 
     @Test
-    void parseInput(){
+    void parseInputTest(){
         // Ensure good input makes it through.
+        int[] testArray = {1, 2, 3, 4, 5};
+        String[] testStringArray = {"1","2","3","4","5"};
+        assertArrayEquals(testArray, executorTest.parseInput(testStringArray));
     }
 }
